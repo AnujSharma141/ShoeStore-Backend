@@ -7,10 +7,6 @@ Shoe Store shopping application backend
 
 ![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
 
-<<<<<<< HEAD
-=======
-Shoe Store shopping application backend created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [REACT](https://reactjs.org/) and [FIREBASE](https://firebase.google.com/).
->>>>>>> e7f8c726a2c05d4f1f36f18e144f56a24200bc12
 
 ## Installation
 
@@ -43,7 +39,8 @@ The project uses Firebase Realtime Database which is a document model NOSQL data
  
 ### Schema 
 
-![alt text](https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png)
+![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
+
 
 ## Technologies Used
 

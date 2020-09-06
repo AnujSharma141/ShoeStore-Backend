@@ -22,5 +22,5 @@ app.use(express.static('public'))
 app.use('/api',api)
 app.use('/admin',admin)
 
-const port = process.env.PORT || 3020
+const port = process.env.PORT
 app.listen(port, () => console.log(`server listening`))

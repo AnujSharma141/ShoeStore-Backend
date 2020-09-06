@@ -11,9 +11,6 @@ const router = express.Router()
 
 const database = firebase.database()
 
-//set ENV variables
-const keys = {username:'admin@login', password: '123456'}
-
 //routes
 router.get('/',(req,res)=>{
     database.ref('/orders').once('value').then(data =>{
@@ -28,8 +25,9 @@ router.get('/draw',(req,res)=>{
 })
 
 //authentication
+//set ENV variables
 router.get('/auth/:id/:pass',(req,res)=>{
-    req.params.id === keys.username && req.params.pass === keys.password?
+    req.params.id === process.env.ID && req.params.pass === process.env.PASS?
     res.status(200).send('valid user')
     :res.status(401).send('Invalid!')
 })
