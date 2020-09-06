@@ -2,14 +2,13 @@
 
 Shoe Store shopping application backend
 
- Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/) and [FIREBASE](https://firebase.google.com/).
+ Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [FIREBASE](https://firebase.google.com/) and [REACT](https://reactjs.org/).
 
 
-![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
+![alt text](https://i.ibb.co/F8K92Nc/68747470733a2f2f692e6962622e636f2f7a3668743731702f73637265656c792d313539383939383633303837342e706e67.png)
 
 
-## Installation
-
+## Development
 Run the following commands in terminal to setup the project on your local machine.
 
 ```bash 
@@ -26,12 +25,12 @@ npm start
 1. Login to [FIREBASE](https://firebase.google.com/)
 2. Create New Project
 3. Copy Firebase Config Keys
-4. Insert your Keys to api/main.js
+4. Insert your Keys to `api/main.js`
 
 ### Environment Variables
 
-* Set ENV.USERNAME for admin username.
-* Set ENV.PASSWORD for admin password.
+* Set `env.ID` for admin id.
+* Set `env.PASS` for admin password.
 
 ## Database
 
@@ -39,8 +38,7 @@ The project uses Firebase Realtime Database which is a document model NOSQL data
  
 ### Schema 
 
-![alt text](https://i.ibb.co/z6ht71p/screely-1598998630874.png)
-
+<img src="https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png" width="650">
 
 ## Technologies Used
 
