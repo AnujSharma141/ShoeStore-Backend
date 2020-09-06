@@ -31,6 +31,7 @@ npm start
 
 * Set `env.ID` for admin id.
 * Set `env.PASS` for admin password.
+* Set `env.PORT` to set a port for development.
 
 ## Database
 
