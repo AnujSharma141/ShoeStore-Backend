@@ -1,6 +1,7 @@
 # Shoe Store
 
-Shoe Store shopping application backend
+Shoe Store shopping application backend. 
+Server Side rendered React Application for Admin to track sales and products for the Online Store.
 
  Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [FIREBASE](https://firebase.google.com/) and [REACT](https://reactjs.org/).
 
