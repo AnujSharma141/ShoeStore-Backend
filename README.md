@@ -33,7 +33,7 @@ npm start
 * In Firebase Data root set `admin/user` for admin id.
 * In Firebase Data root set `admin/password` for admin password.
 
-<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="650">
+<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="250">
 
 ## Database
 
