@@ -13,8 +13,8 @@ Server Side rendered React Application for Admin to track sales and products for
 Run the following commands in terminal to setup the project on your local machine.
 
 ```bash 
-git clone https://github.com/AnujSharma141/ShoeStore-Backend.git
-cd ShoeStore-Backend
+git clone https://github.com/AnujSharma141/ShoeStoreAdmin.git
+cd ShoeStoreAdmin
 npm install
 npm start
 ```
