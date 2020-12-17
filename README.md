@@ -28,7 +28,7 @@ npm start
 3. Copy Firebase Config Keys
 4. Insert your Keys to `api/main.js`
 
-### Admin Configurations
+### Admin Config
 
 * In Firebase Data root set `admin/user` for admin id.
 * In Firebase Data root set `admin/password` for admin password.
