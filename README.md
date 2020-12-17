@@ -13,8 +13,8 @@ Server Side rendered React Application for Admin to track sales and products for
 Run the following commands in terminal to setup the project on your local machine.
 
 ```bash 
-git clone https://github.com/AnujSharma141/ShoeStore-Backend.git
-cd ShoeStore-Backend
+git clone https://github.com/AnujSharma141/ShoeStoreAdmin.git
+cd ShoeStoreAdmin
 npm install
 npm start
 ```
@@ -28,12 +28,12 @@ npm start
 3. Copy Firebase Config Keys
 4. Insert your Keys to `config/db.config.js`
 
-### Admin Configurations
+### Admin Config
 
 * In Firebase Data root set `admin/user` for admin id.
 * In Firebase Data root set `admin/password` for admin password.
 
-<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="2    50">
+<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="250">
 
 ## Database
 
