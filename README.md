@@ -26,14 +26,14 @@ npm start
 1. Login to [FIREBASE](https://firebase.google.com/)
 2. Create New Project
 3. Copy Firebase Config Keys
-4. Insert your Keys to `api/main.js`
+4. Insert your Keys to `config/db.config.js`
 
 ### Admin Configurations
 
 * In Firebase Data root set `admin/user` for admin id.
 * In Firebase Data root set `admin/password` for admin password.
 
-<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="650">
+<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="2    50">
 
 ## Database
 

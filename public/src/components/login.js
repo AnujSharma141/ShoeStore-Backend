@@ -12,7 +12,7 @@ export default class login extends Component {
 
         this.login = e =>{
             e.preventDefault()
-            fetch(`http://localhost:3020/admin/auth/${this.state.username}/${this.state.password}`)
+            fetch(`http://localhost:2020/admin/auth/${this.state.username}/${this.state.password}`)
             .then(data => {
             data.status === 200? 
             this.props.login():

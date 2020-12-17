@@ -6,7 +6,7 @@ export default class order extends Component {
     this.state = {data: []}
     }
     componentDidMount(){
-    fetch('http://localhost:3020/admin/')
+    fetch('http://localhost:2020/admin/')
         .then(data => data.json())
         .then(items => {
             this.setState({data: Object.values(items)})

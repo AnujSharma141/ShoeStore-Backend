@@ -19,7 +19,7 @@ router.get('/',(req,res)=>{
     })
 })
 
-    //draw
+//draw
 router.get('/draw',(req,res)=>{
     res.send(drawData)
 })
@@ -27,9 +27,11 @@ router.get('/draw',(req,res)=>{
 //authentication
 //set ENV variables
 router.get('/auth/:id/:pass',(req,res)=>{
-    req.params.id === process.env.ID && req.params.pass === process.env.PASS?
+    database.ref('/admin').once('value').then(data =>{
+    req.params.id === data.val().user && req.params.pass === data.val().password?
     res.status(200).send('valid user')
     :res.status(401).send('Invalid!')
+    })
 })
 
 

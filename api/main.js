@@ -3,20 +3,6 @@ const Joi = require('joi')
 const firebase = require('firebase/app')
 require("firebase/database")
 
-//Unique Firebase Config Keys
-const firebaseConfig = {
-  // ...
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
-}
-
-//Firebase Integration
-firebase.initializeApp(firebaseConfig)
 const database = firebase.database()
 
 const app = express()

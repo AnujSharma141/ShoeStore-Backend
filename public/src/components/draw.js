@@ -6,7 +6,7 @@ export default class draw extends Component {
         this.state = {data: null}
     }
     componentDidMount(){
-        fetch('http://localhost:3020/admin/draw')
+        fetch('http://localhost:2020/admin/draw')
         .then(data => data.json())
         .then(items => {
             this.setState({data: items})

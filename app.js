@@ -2,6 +2,7 @@ const express = require('express')
 const handlebars = require('express-handlebars')
 const helmet = require('helmet')
 const cors = require('cors')
+const dbConfig = require('./config/db.config')
 const api = require('./api/main')
 const admin = require('./routes/admin')
 
@@ -22,5 +23,5 @@ app.use(express.static('public'))
 app.use('/api',api)
 app.use('/admin',admin)
 
-const port = process.env.PORT
+const port = process.env.PORT || 2020
 app.listen(port, () => console.log(`server listening`))
