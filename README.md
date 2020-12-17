@@ -1,7 +1,7 @@
 # Shoe Store
 
 Shoe Store shopping application backend. 
-Server Side rendered React Application for Admin to track sales and products for the Online Store.
+Server Side rendered React Application for Admin to track sales and products for the Online Store and Server of the Client Side Application.
 
  Created with [NODE](https://nodejs.org/), [EXPRESS](https://expressjs.com/), [FIREBASE](https://firebase.google.com/) and [REACT](https://reactjs.org/).
 
@@ -28,17 +28,18 @@ npm start
 3. Copy Firebase Config Keys
 4. Insert your Keys to `api/main.js`
 
-### Environment Variables
+### Admin Configurations
 
-* Set `env.ID` for admin id.
-* Set `env.PASS` for admin password.
-* Set `env.PORT` to set a port for development.
+* In Firebase Data root set `admin/user` for admin id.
+* In Firebase Data root set `admin/password` for admin password.
+
+<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="650">
 
 ## Database
 
 The project uses Firebase Realtime Database which is a document model NOSQL database.
  
-### Schema 
+### MODEL 
 
 <img src="https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png" width="650">
 
