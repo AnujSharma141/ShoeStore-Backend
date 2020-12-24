@@ -37,7 +37,8 @@ npm start
 
 ## Database
 
-The project uses Firebase Realtime Database which is a document model NOSQL database.
+* Type : Document Model (NOSQL)
+* Service : Firebase Realtime Database
  
 ### MODEL 
 
