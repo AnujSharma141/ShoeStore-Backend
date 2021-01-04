@@ -30,10 +30,8 @@ npm start
 
 ### Admin Config
 
-* In Firebase Data root set `admin/user` for admin id.
-* In Firebase Data root set `admin/password` for admin password.
-
-<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="250">
+1. Configure `data/user.json`.
+2. Import `data/user.json` to `/user` in the Database.
 
 ## Database
 
