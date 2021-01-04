@@ -40,7 +40,7 @@ npm start
  
 ### MODEL 
 
-<img src="https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png" width="650">
+<img src="https://i.ibb.co/SymXLJN/Screenshot-2021-01-05-050157.jpg" width="650">
 
 ## Technologies Used
 
