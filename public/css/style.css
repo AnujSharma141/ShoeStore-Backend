@@ -81,53 +81,56 @@ body{
 .login{
   width:100%;
   height:100%;
-  background:#fff;
+  background:rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .form{
   margin-top: 0.5vw;
-  width:20vw;
-  background:#9eb5f5;
+  width:25vw;
+  background:#bfe0f0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1vw;
 }
 .form-logo{
-  width:4.5vw; 
-  margin-top: 0.5vw;
+  width:5.5vw; 
+  margin-top: 1.3vw;
 }
 .form-title{
-  font-size:2.1vw;
+  font-size:2.5vw;
   font-weight: 700;
   margin-top: 0vw;
-  color: #ffffff;
-  margin-bottom:1vw;
+  color: #000000;
+  margin-bottom:1.3vw;
 }
 .input{
   background: #ffffff;
   font-family: 'Alata', sans-serif;
   border:0px;
   font-size: 1vw;
-  padding: 0.5vw 2vw;
-  width:92%;
+  padding: 0.85vw 2vw;
+  width:75%;
   outline: none;
-  margin: 0.3vw 0vw;
+  margin: 0.45vw 0vw;
   text-align: center;
 }
 .input::placeholder{
   font-family: 'Alata', sans-serif;
+  font-weight: 800;
+  color: rgb(94, 94, 94);
 }
 
 .button{
-  background: #000;
+  background: rgb(0, 0, 0);
   border:0px;
   outline: none;
   font-size:1.2vw;
-  margin: 1.7vw 0vw 3vw 0vw;
-  padding: 0.7vw 1.8vw;
+  margin: 1.7vw 0vw 4.5vw 0vw;
+  padding: 1vw 2.1vw;
   font-family: 'Alata', sans-serif;
   color: #fff;
   cursor: pointer;
