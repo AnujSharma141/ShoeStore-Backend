@@ -30,18 +30,17 @@ npm start
 
 ### Admin Config
 
-* In Firebase Data root set `admin/user` for admin id.
-* In Firebase Data root set `admin/password` for admin password.
-
-<img src="https://i.ibb.co/2WDysLW/Screenshot-from-2020-12-17-17-25-39.png" width="250">
+1. Configure `data/user.json`.
+2. Import `data/user.json` to `/user` in the Database.
 
 ## Database
 
-The project uses Firebase Realtime Database which is a document model NOSQL database.
+* Type : Document Model (NOSQL)
+* Service : Firebase Realtime Database
  
 ### MODEL 
 
-<img src="https://i.ibb.co/VpnBx0H/Screenshot-from-2020-09-05-21-24-37.png" width="650">
+<img src="https://i.ibb.co/SymXLJN/Screenshot-2021-01-05-050157.jpg" width="500">
 
 ## Technologies Used
 
